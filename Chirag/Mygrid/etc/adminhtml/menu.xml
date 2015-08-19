@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Chirag_Mygrid::faq" title="Chirag's modules" module="Chirag_Mygrid" sortOrder="50" resource="Chirag_Mygrid::faq"/>
+        <add id="Chirag_Mygrid::manage_items" title="All Questions" module="Chirag_Mygrid" sortOrder="10" parent="Chirag_Mygrid::faq" action="mygrid/faq/" resource="Chirag_Mygrid::faq"/>
+    </menu>
+</config>
