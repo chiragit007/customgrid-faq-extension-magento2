@@ -1,0 +1,13 @@
+{
+    "name": "chirag/mygrid",
+    "description": "Test module for Magento 2",
+    "type": "magento2-module",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "chirag/mygrid"
+            ]
+        ]
+    }
+}
